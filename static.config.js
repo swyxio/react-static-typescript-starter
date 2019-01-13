@@ -1,13 +1,9 @@
 import axios from 'axios'
 import path from 'path'
 
-// Paths Aliases defined through tsconfig.json
-const typescriptWebpackPaths = require('./webpack.config.js')
-
 export default {
   plugins: ['react-static-plugin-typescript'],
   entry: path.join(__dirname, 'src', 'index.tsx'),
-  extensions: ['.js', '.jsx', '.ts', '.tsx'],
   getSiteData: () => ({
     title: 'React Static',
   }),
