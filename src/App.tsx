@@ -3,7 +3,7 @@ import { Root, Routes } from 'react-static'
 import { Link } from '@reach/router'
 
 import './app.css'
-import FancyDiv from '@components/FancyDiv'
+import FancyDiv from './components/FancyDiv'
 
 function App() {
   return (
